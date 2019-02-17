@@ -11,6 +11,9 @@ class calculator
 	       {
 		       cout<<a-b;
 		}
+	       void multiply(int a,int b)
+	       {cout<<a*b;
+	       }
 
 }
 int main()
