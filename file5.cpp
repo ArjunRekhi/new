@@ -2,11 +2,16 @@
 using namespace std
 class calculator
 {
-	public:int add(int a,intb)
+	public:void add(int a,intb)
 	       {
-		       a+b;
+		       cout<<a+b;
 
 	        }
+	       void subtract(int a,int b)
+	       {
+		       cout<<a-b;
+		}
+
 }
 int main()
 { int a,b;
