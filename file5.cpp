@@ -13,6 +13,11 @@ class calculator
 		}
 	       void multiply(int a,int b)
 	       {cout<<a*b;
+	       
+	      }
+	       void divide(int a,int b)
+	       {
+		       cout<<a/b;
 	       }
 
 }
@@ -23,6 +28,10 @@ int main()
 	cin>>b;
 	calculator o1;
         o1.add;
+	o1.subtract;
+	o1.multiply;
+	o1.divide;
+	
 }
 
 
